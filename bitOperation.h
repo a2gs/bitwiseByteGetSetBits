@@ -3,7 +3,9 @@
 
 
 /* *** INCLUDES *** */
-
+/*
+/usr/include/limits.h:#  define CHAR_BIT        8
+*/
 
 /* *** DEFINES *** */
 	/* Set the state of a given bit into a BYTE_t variable.
