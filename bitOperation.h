@@ -1,3 +1,20 @@
+/* Andre Augusto Giannotti Scota (a2gs)                              
+ * andre.scota@gmail.com
+ *
+ * Set/Get bit operations
+ *
+ * Public Domain
+ *
+ */
+
+/* bitOperation.h
+ *
+ *  Who     | When       | What
+ *  --------+------------+----------------------------
+ *   a2gs   | 01/01/2002 | Creation
+ *          |            |
+ */
+
 #ifndef __A2GS_TOOLBOX_BITOP_H__
 #define __A2GS_TOOLBOX_BITOP_H__
 
