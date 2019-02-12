@@ -49,21 +49,22 @@
 /* *** EXAMPLE *** */
 #if 0
 
-   #include <stdio.h>
+#include <stdio.h>
 
-	int main(){
-		A2GS_TOOLBOX_BYTE_t i = 0;
+int main(int argc, char *argv[])
+{
+	A2GS_TOOLBOX_BYTE_t i = 0;
 
-		A2GS_TOOLBOX_SETBIT(i, 1); A2GS_TOOLBOX_SETBIT(i, 3);
-		A2GS_TOOLBOX_SETBIT(i, 7); A2GS_TOOLBOX_SETBIT(i, 5);
+	A2GS_TOOLBOX_SETBIT(i, 1); A2GS_TOOLBOX_SETBIT(i, 3);
+	A2GS_TOOLBOX_SETBIT(i, 7); A2GS_TOOLBOX_SETBIT(i, 5);
 
-		printf("\n[%d] [%d] [%d] [%d] [%d] [%d] [%d] [%d] - [%d]\n",
-		       A2GS_TOOLBOX_GETBIT(i,1), A2GS_TOOLBOX_GETBIT(i,2), A2GS_TOOLBOX_GETBIT(i,3),
-		       A2GS_TOOLBOX_GETBIT(i,4), A2GS_TOOLBOX_GETBIT(i,5), A2GS_TOOLBOX_GETBIT(i,6),
-		       A2GS_TOOLBOX_GETBIT(i,7), A2GS_TOOLBOX_GETBIT(i,8), i);
+	printf("\n[%d] [%d] [%d] [%d] [%d] [%d] [%d] [%d] - [%d]\n",
+	       A2GS_TOOLBOX_GETBIT(i,1), A2GS_TOOLBOX_GETBIT(i,2), A2GS_TOOLBOX_GETBIT(i,3),
+	       A2GS_TOOLBOX_GETBIT(i,4), A2GS_TOOLBOX_GETBIT(i,5), A2GS_TOOLBOX_GETBIT(i,6),
+	       A2GS_TOOLBOX_GETBIT(i,7), A2GS_TOOLBOX_GETBIT(i,8), i);
 
-		return(1);
-	}
-	#endif
+	return(1);
+}
+#endif
 
 #endif
