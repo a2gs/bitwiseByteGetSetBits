@@ -20,26 +20,26 @@
 
 
 /* *** INCLUDES *** */
-	#include <limits.h>
+#include <limits.h>
 
 
 /* *** DEFINES *** */
-	/* Set the state of a given bit into a BYTE_t variable.
-	 * __byte_ - BYTE_t variable
-	 * __n_ - Bit position (into byte, from 1 to 8 at left to right)
-	 */
-	#define A2GS_TOOLBOX_SETBIT(__byte_, __n_) (__byte_ |= ((A2GS_TOOLBOX_BYTE_t) 1) << CHAR_BIT - __n_)
+/* Set the state of a given bit into a BYTE_t variable.
+ * __byte_ - BYTE_t variable
+ * __n_ - Bit position (into byte, from 1 to 8 at left to right)
+ */
+#define A2GS_TOOLBOX_SETBIT(__byte_, __n_) (__byte_ |= ((A2GS_TOOLBOX_BYTE_t) 1) << CHAR_BIT - __n_)
 
-	/* Get the state of a given bit into a BYTE_t variable.
-	 * __byte_ - BYTE_t variable
-	 * __n_ - Bit position (into byte, from 1 to 8 at left to right)
-	 */
-	#define A2GS_TOOLBOX_GETBIT(__byte_, __n_) ((__byte_ & ((A2GS_TOOLBOX_BYTE_t) 1) << CHAR_BIT - __n_) ? 1 : 0)
+/* Get the state of a given bit into a BYTE_t variable.
+ * __byte_ - BYTE_t variable
+ * __n_ - Bit position (into byte, from 1 to 8 at left to right)
+ */
+#define A2GS_TOOLBOX_GETBIT(__byte_, __n_) ((__byte_ & ((A2GS_TOOLBOX_BYTE_t) 1) << CHAR_BIT - __n_) ? 1 : 0)
 
 
 /* *** DATA TYPES *** */
-	/* Default Byte type */
-	typedef unsigned char A2GS_TOOLBOX_BYTE_t;
+/* Default Byte type */
+typedef unsigned char A2GS_TOOLBOX_BYTE_t;
 
 
 /* *** INTERFACES / PROTOTYPES *** */
