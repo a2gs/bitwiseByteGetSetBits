@@ -3,7 +3,7 @@
  *
  * Set/Get bit operations
  *
- * Public Domain
+ * MIT License
  *
  */
 
